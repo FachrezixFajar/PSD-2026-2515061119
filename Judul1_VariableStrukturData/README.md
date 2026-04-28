@@ -1,3 +1,4 @@
+TUGAS AKHIR JUDUL 1
 a. Judul Program : Fungsi Singly Linked List Pada Playlist Lagu
 
 b. Deskripsi Singkat : Program tersebut berfungsi sebagai gambaran fungsi sederhana dalam playlist lagu, di mana pengguna bisa menambahkan lagu ke dalam playlist, menghapus lagu pertama, dan menampilkan seluruh isi dari playlist. Cara kerjanya seperti youtube music/spotify, tetapi dalam bentuk yang sangat sederhana, setiap lagu disimpan sebagai satu elemen, lalu dihubungkan dengan lagu berikutnya sehingga membentuk urutan yang bisa ditelusuri oleh pengguna dari awal hingga akhir.
