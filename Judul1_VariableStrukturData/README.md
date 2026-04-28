@@ -11,42 +11,18 @@ c. Source Code :
 <img width="859" height="484" alt="Screenshot 2026-04-28 210252" src="https://github.com/user-attachments/assets/086e25d7-9fe2-4f69-ab7c-cc4efcbe6ea1" />
 
 d.  Output Program : 
-
-
-
-
-
-
-
+<img width="521" height="200" alt="image" src="https://github.com/user-attachments/assets/5108d9e9-6ddb-473e-89e3-382faa4abf30" />
 
 Jika kita memilih opsi 1 maka user diminta untuk memasukan judul lagu yang ingin dimasukan ke dalam playlist.
 
-
-
-
-
-
-
-
+<img width="514" height="198" alt="image" src="https://github.com/user-attachments/assets/e32a7c1c-6f3b-45b3-9ccc-ff8837fe581a" />
 
 Jika kita memilih opsi 2 maka program akan menghapus lagu yang paling pertama user masukan.
 
-
-
-
-
-
-
-
+<img width="441" height="210" alt="image" src="https://github.com/user-attachments/assets/ae1407d0-1de0-4315-8555-74298292308b" />
 
 Jika kita memilih opsi 3 maka menampilkan seluruh isi playlist, ini gambarannya jika didalamnya hanya ada satu lagu, maka pointer selanjutnya menunjukan “tidak ada lagu”.
 
-
-
-
-
-
-
-
+<img width="446" height="197" alt="image" src="https://github.com/user-attachments/assets/187cd501-21a4-4d78-a67e-c75038b74cc7" />
 
 Jika kita memilih opsi 4 maka program akan selesai.
