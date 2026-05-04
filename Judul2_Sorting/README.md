@@ -6,7 +6,7 @@ b. Deskripsi Singkat : Program tersebut berfungsi untuk mengelola dan mengurutka
 
 c. Source Code :
 
-Baris 1 membuat fungsi bernama bubble_sort yang menerima satu data masukkan (parameter) berupa daftar bernama arr.
+Baris 1 membuat fungsi bernama bubble_sort yang menerima satu data masukkan (parameter) berupa daftar bernama arr.<br/>
 Baris 2 Menghitung jumlah elemen di dalam arr dan menyimpannya ke dalam variabel n
 Baris 3 Memulai perulangan luar (outer loop) untuk mengontrol tahapan pengurutan. Loop berjalan sebanyak jumlah elemen dikurangi 1
 Baris 4 Memulai perulangan dalam (inner loop) untuk membandingkan dua data yang bersebelahan. Semakin jauh pengurutan berjalan (nilai i makin besar), elemen yang          perlu dicek makin sedikit karena elemen di ujung sudah pasti berada di posisi yang benar.
