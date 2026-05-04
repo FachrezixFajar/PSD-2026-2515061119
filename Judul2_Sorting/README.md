@@ -6,3 +6,56 @@ b. Deskripsi Singkat : Program tersebut berfungsi untuk mengelola dan mengurutka
 
 c. Source Code :
 <img width="1464" height="2230" alt="judul 2 foto" src="https://github.com/user-attachments/assets/1861d60e-2683-483c-862a-6647d144f1dd" />
+
+Baris 1 membuat fungsi bernama bubble_sort yang menerima satu data masukkan (parameter) berupa daftar bernama arr.
+Baris 2 Menghitung jumlah elemen di dalam arr dan menyimpannya ke dalam variabel n
+Baris 3 Memulai perulangan luar (outer loop) untuk mengontrol tahapan pengurutan. Loop berjalan sebanyak jumlah elemen dikurangi 1
+Baris 4
+Baris 5
+Baris 6
+Baris 7
+Baris 8
+Baris 9
+Baris 10
+Baris 11
+Baris 12
+Baris 13
+Baris 14
+Baris 15
+Baris 16
+Baris 17
+Baris 18
+Baris 19
+Baris 20
+Baris 21
+Baris 22
+Baris 23
+Baris 24
+Baris 25
+Baris 26
+Baris 27
+Baris 28
+Baris 29
+Baris 30
+Baris 31
+Baris 32
+Baris 33
+Baris 34
+Baris 35
+Baris 36
+Baris 37
+Baris 38
+Baris 39
+Baris 40
+Baris 41
+Baris 42
+Baris 43
+Baris 44
+Baris 45
+Baris 46
+Baris 47
+Baris 48
+Baris 49
+Baris 50
+Baris 51
+Baris 52
