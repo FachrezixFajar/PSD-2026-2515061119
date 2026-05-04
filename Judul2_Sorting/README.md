@@ -5,7 +5,6 @@ a. Judul Program : Fungsi Bubble Sorting dalam mengurutkan skor game
 b. Deskripsi Singkat : Program tersebut berfungsi untuk mengelola dan mengurutkan data pemain berdasarkan skor yang mereka peroleh. Pengguna diminta memasukkan jumlah pemain, lalu mengisi nama dan skor masing-masing pemain dengan validasi input agar tidak terjadi kesalahan. Cara kerjanya mirip seperti sistem leaderboard pada game, di mana setelah semua data dimasukkan, program akan menampilkan daftar pemain sebelum diurutkan, kemudian mengurutkannya menggunakan metode bubble sort berdasarkan skor tertinggi ke terendah. Setelah itu, hasil peringkat ditampilkan kembali secara rapi lengkap dengan posisi masing-masing pemain, dan pemain dengan skor tertinggi akan diumumkan sebagai pemenang.
 
 c. Source Code :
-<img width="1464" height="2040" alt="code jd2" src="https://github.com/user-attachments/assets/6d884238-4b55-4843-a0c3-554e815a3337" />
 
 Baris 1 membuat fungsi bernama bubble_sort yang menerima satu data masukkan (parameter) berupa daftar bernama arr.
 Baris 2 Menghitung jumlah elemen di dalam arr dan menyimpannya ke dalam variabel n
