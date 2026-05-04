@@ -55,7 +55,7 @@ Baris 44 Memanggil kembali fungsi tampilkan untuk mencetak tabel data pemain yan
 Baris 45 <br/>
 Baris 46 Mencetak nama pemenang beserta skornya. Program cukup mengambil data di indeks ke-0 (pemain[0]), karena setelah diurutkan, otomatis data dengan skor tertinggi akan berada di posisi paling pertama (indeks 0).<br/>
 
-d. Output Program
+d. Output Program :
 <img width="1717" height="503" alt="Screenshot 2026-05-05 011224" src="https://github.com/user-attachments/assets/2e222ab0-f977-4e66-8dde-0d715dc856f0" />
 
 Output dari program tersebut menampilkan proses pengolahan data pemain mulai dari input hingga penentuan pemenang. Awalnya, pengguna memasukkan jumlah pemain dan data masing-masing pemain berupa nama dan skor. Program kemudian menampilkan daftar pemain dalam kondisi awal (sebelum diurutkan), sesuai dengan urutan saat data dimasukkan. Setelah itu, program melakukan proses pengurutan menggunakan metode bubble sort berdasarkan skor dari yang tertinggi ke terendah, sehingga posisi pemain dengan skor lebih besar akan berpindah ke atas. Hasil pengurutan ini ditampilkan kembali dalam bentuk peringkat yang sudah rapi. Terakhir, program menentukan dan menampilkan pemenang, yaitu pemain yang berada di posisi pertama karena memiliki skor paling tinggi.
