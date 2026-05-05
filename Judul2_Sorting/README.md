@@ -8,26 +8,26 @@ c. Source Code :
 <img width="1464" height="2040" alt="code jd2" src="https://github.com/user-attachments/assets/788a8e53-f588-456d-a7a9-3a501566f564" />
 
 
-Baris 1 membuat fungsi bernama bubble_sort yang menerima satu data masukkan (parameter) berupa daftar bernama arr.<br/>
+Baris 1 membuat fungsi bernama bubble_sort yang menerima satu data masukkan berparameter berupa daftar bernama arr.<br/>
 Baris 2 Menghitung jumlah elemen di dalam arr dan menyimpannya ke dalam variabel n.<br/>
-Baris 3 Memulai perulangan luar (outer loop) untuk mengontrol tahapan pengurutan. Loop berjalan sebanyak jumlah elemen dikurangi 1.<br/>
+Baris 3 Memulai perulangan luar (outer loop) untuk mengontrol tahapan pengurutan. Loop berjalan sebanyak jumlah elemen n dikurangi 1.<br/>
 Baris 4 Memulai perulangan dalam (inner loop) untuk membandingkan dua data yang bersebelahan. Semakin jauh pengurutan berjalan (nilai i makin besar), elemen yang          perlu dicek makin sedikit karena elemen di ujung sudah pasti berada di posisi yang benar.<br/>
 Baris 5 Mengecek apakah skor saat ini lebih kecil dari skor di posisi berikutnya. Karena tandanya < (kurang dari), data dengan skor besar akan didorong ke depan           (menghasilkan urutan menurun/descending).<br/>
-Baris 6 Jika kondisi di Baris 5 benar, tukar posisi kedua data tersebut (proses swap).<br/>
+Baris 6 Jika kondisi di Baris 5 benar, tukar posisi kedua data tersebut.<br/>
 Baris 7 
 Baris 8 Membuat fungsi bernama tampilkan untuk mencetak daftar pemain ke layar dengan rapi.<br/>
 Baris 9 Mencetak teks judul tabel<br/>
-Baris 10 Mencetak garis pemisah berupa tanda strip (-) sebanyak 35 kali.<br/> 
+Baris 10 Mencetak garis pemisah berupa tanda strip (-) sebanyak 35 kali (sebagai hiasan saja agar rapi).<br/> 
 Baris 11 Melakukan perulangan untuk membaca isi daftar pemain satu per satu. enumerate(pemain, 1) berguna untuk memberikan nomor urut otomatis (variabel i) yang             dimulai dari angka 1. Variabel p mewakili data pemainnya. <br/>
-Baris 12 Mencetak data pemain ke layar. f"{...}" adalah fitur f-string di Python. Tanda <11 dan <16 digunakan untuk memberikan ruang spasi ke kanan agar teks sejajar dan membentuk kolom tabel yang rapi. <br/>
+Baris 12 Mencetak data pemain ke layar. f"{...}" merupakan fitur f-string di Python.<br/>
 Baris 13 <br/>
-Baris 14 Menyiapkan tempat penampungan (list) kosong bernama pemain untuk menyimpan data yang akan diketik oleh user. <br/> 
+Baris 14 Menyiapkan tempat penampungan list kosong bernama pemain untuk menyimpan data yang akan diketik oleh user. <br/> 
 Baris 15 <br/>
-Baris 16 Memulai perulangan tanpa henti (infinite loop). Tujuannya agar program terus menanyakan jumlah pemain sampai user memasukkan input yang<br/>
+Baris 16 Memulai perulangan tanpa henti. Tujuannya agar program terus menanyakan jumlah pemain sampai user memasukkan input yang<br/>
 Baris 17 Memulai blok untuk "mencoba" perintah. Jika ada error (misal user mengetik huruf alih-alih angka), program tidak akan langsung crash/error.<br/>
 Baris 18 Meminta user memasukkan jumlah pemain, lalu mengubah inputnya menjadi tipe data angka bulat<br/>
 Baris 19 Mengecek apakah jumlah pemain yang dimasukkan lebih dari 0.<br/>
-Baris 20 Jika iya (input benar), perulangan while True dihentikan.<br/>
+Baris 20 Jika iya, perulangan while True dihentikan.<br/>
 Baris 21 Jika input angka 0 atau negatif, program akan mencetak peringatan ini dan kembali mengulang pertanyaan karena belum terkena break.<br/>
 Baris 22 Ini adalah penangkap error. Kalau di Baris 21 user mengetik teks seperti "lima" (bukan angka "5"), program akan lompat ke baris ini.<br/>
 Baris 23 Mencetak pesan peringatan bahwa yang diinput bukan angka.<br/>
@@ -43,14 +43,14 @@ Baris 32 Jika berhasil dan benar berupa angka, hentikan perulangan (lanjut ke ba
 Baris 33 Menangkap error jika skor yang diinput berupa teks/huruf.<br/>
 Baris 34 Menampilkan pesan error dan karena tidak ada break, program akan kembali ke Baris 35.<br/>
 Baris 35 <br/>
-Baris 36 Menambahkan (append) data nama dan skor tersebut ke dalam list pemain dalam format dictionary (seperti kamus data).<br/>
+Baris 36 Menambahkan (append) data nama dan skor tersebut ke dalam list pemain dalam format dictionary.<br/>
 Baris 37 <br/>
 Baris 38 Mencetak teks judul batas.<br/>
 Baris 39 Memanggil fungsi tampilkan untuk mencetak tabel data pemain yang masih acak/belum diurutkan.<br/>
 Baris 40 <br/>
 Baris 41 Memanggil fungsi bubble_sort agar komputer mulai mengurutkan data pemain di dalam memori.<br/>
 Baris 42 <br/>
-Baris 43 Mencetak teks judul batas (sekali lagi, ini nyatanya beroperasi secara Descending, skor tertinggi di atas).<br/>
+Baris 43 Mencetak teks judul batas (ini sudah secara Descending, skor tertinggi di atas).<br/>
 Baris 44 Memanggil kembali fungsi tampilkan untuk mencetak tabel data pemain yang kali ini sudah terurut dengan rapi.<br/>
 Baris 45 <br/>
 Baris 46 Mencetak nama pemenang beserta skornya. Program cukup mengambil data di indeks ke-0 (pemain[0]), karena setelah diurutkan, otomatis data dengan skor tertinggi akan berada di posisi paling pertama (indeks 0).<br/>
