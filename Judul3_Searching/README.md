@@ -56,7 +56,6 @@ Baris 46 Jika dijalankan langsung, maka fungsi main() akan dipanggil sehingga se
 
 
 d. Output Program :
-<img width="1717" height="503" alt="Screenshot 2026-05-05 011224" src="https://github.com/user-attachments/assets/2e222ab0-f977-4e66-8dde-0d715dc856f0" />
 
 Output dari program tersebut akan menampilkan daftar senjata yang ada di dalam tas terlebih dahulu, kemudian pengguna diminta memasukkan nama senjata yang ingin dicari. Setelah input diberikan, program akan melakukan proses pencarian menggunakan metode Sequential Search dengan memeriksa setiap data senjata satu per satu dari awal hingga akhir list.
 Jika senjata yang dicari ditemukan, program akan menampilkan nama senjata, jumlah kemunculannya, serta posisi indeks tempat senjata tersebut berada. Contohnya ketika pengguna memasukkan `"Rust"`, maka output akan menunjukkan bahwa senjata tersebut ditemukan beberapa kali beserta indeksnya, misalnya `[1, 4, 7]`. Hal ini berarti senjata Rust berada pada posisi ke-1, ke-4, dan ke-7 dalam list.
