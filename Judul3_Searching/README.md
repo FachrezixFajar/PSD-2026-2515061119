@@ -68,3 +68,6 @@ Jika senjata yang dicari ditemukan, program akan menampilkan nama senjata, jumla
 Sedangkan jika pengguna memasukkan nama senjata yang tidak ada di dalam daftar, misalnya `"Wolf Gravestone"`, maka program akan menampilkan pesan bahwa senjata tersebut tidak ditemukan dalam tas. Dengan demikian, output program membantu pengguna mengetahui apakah suatu senjata tersedia dan di posisi mana senjata itu berada pada inventory.
 
 e. Link Youtube : https://youtu.be/bVIjnNiRTE4
+
+<img width="1721" height="178" alt="Screenshot 2026-05-12 211125" src="https://github.com/user-attachments/assets/10bd5121-2f2e-4127-bd96-0dc234e463ea" />
+
