@@ -64,7 +64,7 @@ d. Output Program :
 <img width="1721" height="178" alt="Screenshot 2026-05-12 211125" src="https://github.com/user-attachments/assets/cab71935-fe36-4fa4-b48d-bceba3e0ba4e" />
 
 Output dari program tersebut akan menampilkan daftar senjata yang ada di dalam tas terlebih dahulu, kemudian pengguna diminta memasukkan nama senjata yang ingin dicari. Setelah input diberikan, program akan melakukan proses pencarian menggunakan metode Sequential Search dengan memeriksa setiap data senjata satu per satu dari awal hingga akhir list.
-Jika senjata yang dicari ditemukan, program akan menampilkan nama senjata, jumlah kemunculannya, serta posisi indeks tempat senjata tersebut berada. Contohnya ketika pengguna memasukkan `"Rust"`, maka output akan menunjukkan bahwa senjata tersebut ditemukan beberapa kali beserta indeksnya, misalnya `[1, 4, 7]`. Hal ini berarti senjata Rust berada pada posisi ke-1, ke-4, dan ke-7 dalam list.
+Jika senjata yang dicari ditemukan, program akan menampilkan nama senjata, jumlah kemunculannya, serta posisi indeks tempat senjata tersebut berada. Contohnya ketika pengguna memasukkan `"Rust"`, maka output akan menunjukkan bahwa senjata tersebut ditemukan beberapa kali beserta indeksnya, misalnya `[1, 4, 7]`. Hal ini berarti senjata Rust berada pada posisi ke-1, ke-4, dan ke-9, ke-12 dalam list.
 Sedangkan jika pengguna memasukkan nama senjata yang tidak ada di dalam daftar, misalnya `"Wolf Gravestone"`, maka program akan menampilkan pesan bahwa senjata tersebut tidak ditemukan dalam tas. Dengan demikian, output program membantu pengguna mengetahui apakah suatu senjata tersedia dan di posisi mana senjata itu berada pada inventory.
 
 e. Link Youtube : https://youtu.be/bVIjnNiRTE4
