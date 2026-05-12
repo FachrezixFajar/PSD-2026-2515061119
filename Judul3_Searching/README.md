@@ -69,5 +69,6 @@ Sedangkan jika pengguna memasukkan nama senjata yang tidak ada di dalam daftar, 
 
 e. Link Youtube : https://youtu.be/bVIjnNiRTE4
 
-<img width="1721" height="178" alt="Screenshot 2026-05-12 211125" src="https://github.com/user-attachments/assets/10bd5121-2f2e-4127-bd96-0dc234e463ea" />
+<img width="1091" height="1530" alt="WhatsApp Image 2026-05-12 at 22 00 43" src="https://github.com/user-attachments/assets/fa551926-3e8f-4b15-95f4-0608c0f354e0" />
+
 
