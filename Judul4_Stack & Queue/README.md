@@ -112,3 +112,7 @@ Baris 100 Menampilkan pesan `"Pilihan tidak valid!"`.<br/>
 Baris 101<br/>
 Baris 102 Mengecek apakah file Python dijalankan secara langsung atau tidak.<br/>
 Baris 103 Jika dijalankan langsung, maka fungsi `main()` dipanggil sehingga seluruh program mulai berjalan.<br/>
+
+d. Output Program :
+
+Output dari program tersebut akan menampilkan daftar senjata yang ada di dalam tas terlebih dahulu, kemudian pengguna diminta memasukkan nama senjata yang ingin dicari. Setelah input diberikan, program akan melakukan proses pencarian menggunakan metode Sequential Search dengan memeriksa setiap data senjata satu per satu dari awal hingga akhir list. Jika senjata yang dicari ditemukan, program akan menampilkan nama senjata, jumlah kemunculannya, serta posisi indeks tempat senjata tersebut berada. Contohnya ketika pengguna memasukkan "Rust", maka output akan menunjukkan bahwa senjata tersebut ditemukan beberapa kali beserta indeksnya, misalnya [1, 4, 7]. Hal ini berarti senjata Rust berada pada posisi ke-1, ke-4, dan ke-9, ke-12 dalam list. Sedangkan jika pengguna memasukkan nama senjata yang tidak ada di dalam daftar, misalnya "Wolf Gravestone", maka program akan menampilkan pesan bahwa senjata tersebut tidak ditemukan dalam tas. Dengan demikian, output program membantu pengguna mengetahui apakah suatu senjata tersedia dan di posisi mana senjata itu berada pada inventory.
