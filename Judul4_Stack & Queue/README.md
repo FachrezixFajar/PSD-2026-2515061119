@@ -4,6 +4,7 @@ a. Judul Program : Fungsi QueueArray untuk melihat giliran menyerang pada game h
 
 b. Deskripsi Singkat : Program tersebut berfungsi untuk mengatur urutan giliran karakter menyerang dalam game RPG sederhana bertema Honkai: Star Rail  menggunakan struktur data Queue berbasis Array. Pengguna dapat menambahkan nama karakter ke dalam antrean giliran, melihat karakter yang akan menyerang lebih dulu, menampilkan seluruh urutan giliran, serta menjalankan aksi serangan karakter secara bergantian. Karakter yang masuk lebih awal akan mendapat giliran menyerang lebih dahulu sesuai prinsip First In First Out (FIFO). Cara kerja program ini mirip seperti sistem turn-based battle, yaitu karakter menyerang berdasarkan urutan giliran yang telah tersusun. 
 
+c. Source Code :
 
 Baris 1 Membuat class bernama `QueueArray` yang digunakan untuk mengatur antrean giliran karakter menyerang.<br/>
 Baris 2 Membuat fungsi konstruktor `__init__` yang akan dijalankan otomatis saat objek `QueueArray` dibuat. Parameter `max_size=100` berarti kapasitas maksimal antrean adalah 100 data.<br/>
