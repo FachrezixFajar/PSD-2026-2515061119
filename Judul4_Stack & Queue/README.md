@@ -6,6 +6,9 @@ b. Deskripsi Singkat : Program tersebut berfungsi untuk mengatur urutan giliran 
 
 c. Source Code :
 
+<img width="1602" height="4282" alt="code ta 4" src="https://github.com/user-attachments/assets/95dde395-1d26-4bc3-a1b0-37002fb6fe85" />
+
+
 Baris 1 Membuat class bernama `QueueArray` yang digunakan untuk mengatur antrean giliran karakter menyerang.<br/>
 Baris 2 Membuat fungsi konstruktor `__init__` yang akan dijalankan otomatis saat objek `QueueArray` dibuat. Parameter `max_size=100` berarti kapasitas maksimal antrean adalah 100 data.<br/>
 Baris 3 Menyimpan nilai kapasitas maksimal antrean ke dalam variabel `MAXN`.<br/>
