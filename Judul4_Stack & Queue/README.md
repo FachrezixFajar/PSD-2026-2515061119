@@ -115,6 +115,10 @@ Baris 103 Jika dijalankan langsung, maka fungsi `main()` dipanggil sehingga selu
 
 d. Output Program :
 
+<img width="1704" height="620" alt="Screenshot 2026-05-19 230717" src="https://github.com/user-attachments/assets/aaaf4a5e-d0c4-4ad9-91e9-469ebffd44af" />
+<img width="1722" height="575" alt="Screenshot 2026-05-19 230734" src="https://github.com/user-attachments/assets/ffafd63b-76b9-47b8-bbe1-412dd07f539f" />
+
+
 Output dari program tersebut akan menampilkan menu utama Game Giliran Menyerang RPG Honkai: Star Rail terlebih dahulu. Melalui menu tersebut, pengguna dapat memilih untuk menambahkan karakter ke dalam urutan giliran, menjalankan giliran serangan, melihat karakter yang akan menyerang berikutnya, atau menampilkan seluruh urutan giliran karakter. Saat pengguna memilih menu 1, misalnya memasukkan nama karakter March 7th, Dan Heng, dan Herta, program akan menampilkan pesan bahwa masing-masing karakter berhasil masuk ke urutan giliran menyerang.
 
 Jika pengguna memilih menu 4, output akan menampilkan urutan karakter sesuai antrean, misalnya March 7th -> Dan Heng -> Herta. Ketika pengguna memilih menu 2, karakter yang berada paling depan akan menyerang lebih dahulu. Contohnya, output akan menampilkan pesan “March 7th menyerang musuh!”, lalu karakter tersebut keluar dari antrean sehingga urutan berikutnya menjadi Dan Heng -> Herta. Jika pengguna memilih menu 3, program akan menampilkan karakter yang berada di giliran paling depan, misalnya “Karakter yang akan menyerang berikutnya: Dan Heng”. Sedangkan jika antrean masih kosong dan pengguna mencoba menjalankan serangan atau melihat giliran, program akan menampilkan pesan bahwa tidak ada karakter dalam giliran.
