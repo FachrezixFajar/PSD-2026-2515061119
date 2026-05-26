@@ -172,12 +172,20 @@ Baris 160 Jika file dijalankan langsung, maka fungsi `main()` dipanggil sehingga
 
 d. Output Program :
 
-<img width="1704" height="620" alt="Screenshot 2026-05-19 230717" src="https://github.com/user-attachments/assets/aaaf4a5e-d0c4-4ad9-91e9-469ebffd44af" />
-<img width="1722" height="575" alt="Screenshot 2026-05-19 230734" src="https://github.com/user-attachments/assets/ffafd63b-76b9-47b8-bbe1-412dd07f539f" />
+<img width="1689" height="651" alt="Screenshot 2026-05-26 231834" src="https://github.com/user-attachments/assets/7feaf9e4-2f33-4b51-b858-3409ca52f415" />
+<img width="1690" height="646" alt="Screenshot 2026-05-26 231845" src="https://github.com/user-attachments/assets/51b938c9-9a88-42de-b805-cbc69e66cb3c" />
+<img width="1680" height="638" alt="Screenshot 2026-05-26 231854" src="https://github.com/user-attachments/assets/0fb3e8c9-9ecb-46bc-9840-85bbe01876dd" />
+<img width="1638" height="625" alt="Screenshot 2026-05-26 231903" src="https://github.com/user-attachments/assets/e6115c0d-bb3b-467d-b094-7cd4e1db2745" />
+<img width="1674" height="610" alt="Screenshot 2026-05-26 231912" src="https://github.com/user-attachments/assets/91c07033-131b-4e0e-9521-1bbcae83b44b" />
+<img width="1676" height="616" alt="Screenshot 2026-05-26 231925" src="https://github.com/user-attachments/assets/c3aab870-63c9-45d0-adb9-fcf21818fdea" />
+<img width="1692" height="300" alt="Screenshot 2026-05-26 231936" src="https://github.com/user-attachments/assets/0abbbff7-895e-4d45-a9ce-9ab0beb5c311" />
 
 
-Output dari program tersebut akan menampilkan menu utama Game Giliran Menyerang RPG Honkai: Star Rail terlebih dahulu. Melalui menu tersebut, pengguna dapat memilih untuk menambahkan karakter ke dalam urutan giliran, menjalankan giliran serangan, melihat karakter yang akan menyerang berikutnya, atau menampilkan seluruh urutan giliran karakter. Saat pengguna memilih menu 1, misalnya memasukkan nama karakter March 7th, Dan Heng, dan Herta, program akan menampilkan pesan bahwa masing-masing karakter berhasil masuk ke urutan giliran menyerang.
 
-Jika pengguna memilih menu 4, output akan menampilkan urutan karakter sesuai antrean, misalnya March 7th -> Dan Heng -> Herta. Ketika pengguna memilih menu 2, karakter yang berada paling depan akan menyerang lebih dahulu. Contohnya, output akan menampilkan pesan “March 7th menyerang musuh!”, lalu karakter tersebut keluar dari antrean sehingga urutan berikutnya menjadi Dan Heng -> Herta. Jika pengguna memilih menu 3, program akan menampilkan karakter yang berada di giliran paling depan, misalnya “Karakter yang akan menyerang berikutnya: Dan Heng”. Sedangkan jika antrean masih kosong dan pengguna mencoba menjalankan serangan atau melihat giliran, program akan menampilkan pesan bahwa tidak ada karakter dalam giliran.
 
-e. link youtube : https://youtu.be/i-hNoEuMl-M
+Output program menampilkan menu utama **Sistem Level Boss Wuthering Waves**. Pengguna dapat menambahkan level boss, mencari level tertentu, menampilkan level secara terurut, melihat preorder dan postorder, serta mengetahui level boss terendah, tertinggi, jumlah boss, dan total seluruh level boss. Program ini bekerja menggunakan struktur **Binary Search Tree (BST)**, sehingga data level boss disusun berdasarkan nilai kecil ke kiri dan nilai besar ke kanan. 
+
+Pada output tersebut, pengguna memasukkan level boss **25, 50, 75, dan 100**. Setelah itu, program berhasil mencari level **75** dan menampilkan bahwa boss dengan level tersebut ditemukan. Ketika menu terurut dipilih, program menampilkan **25 50 75 100**. Program juga menampilkan level terendah yaitu **25**, level tertinggi yaitu **100**, jumlah boss sebanyak **4**, dan total seluruh level boss yaitu **250**. Saat pengguna memilih menu **10**, program menampilkan pesan **“Program selesai.”**
+
+
+e. link youtube : [https://youtu.be/i-hNoEuMl-M](https://youtu.be/aK033Sb2lCk)
