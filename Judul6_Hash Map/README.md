@@ -98,20 +98,13 @@ Baris 85 Jika file dijalankan langsung, maka fungsi `main()` dipanggil sehingga 
 
 d. Output Program :
 
-<img width="1689" height="651" alt="Screenshot 2026-05-26 231834" src="https://github.com/user-attachments/assets/7feaf9e4-2f33-4b51-b858-3409ca52f415" />
-<img width="1690" height="646" alt="Screenshot 2026-05-26 231845" src="https://github.com/user-attachments/assets/51b938c9-9a88-42de-b805-cbc69e66cb3c" />
-<img width="1680" height="638" alt="Screenshot 2026-05-26 231854" src="https://github.com/user-attachments/assets/0fb3e8c9-9ecb-46bc-9840-85bbe01876dd" />
-<img width="1638" height="625" alt="Screenshot 2026-05-26 231903" src="https://github.com/user-attachments/assets/e6115c0d-bb3b-467d-b094-7cd4e1db2745" />
-<img width="1674" height="610" alt="Screenshot 2026-05-26 231912" src="https://github.com/user-attachments/assets/91c07033-131b-4e0e-9521-1bbcae83b44b" />
-<img width="1676" height="616" alt="Screenshot 2026-05-26 231925" src="https://github.com/user-attachments/assets/c3aab870-63c9-45d0-adb9-fcf21818fdea" />
-<img width="1692" height="300" alt="Screenshot 2026-05-26 231936" src="https://github.com/user-attachments/assets/0abbbff7-895e-4d45-a9ce-9ab0beb5c311" />
+<img width="1727" height="617" alt="Screenshot 2026-06-09 220805" src="https://github.com/user-attachments/assets/be6cbbd5-695d-4863-bae6-2aaedad57a0a" />
 
 
+Output program menampilkan isi **Inventory ZZZ** yang disimpan menggunakan struktur data **HashMap Separate Chaining**. Pada tampilan awal, item dengan key **1**, **11**, dan **21** berada pada index yang sama, yaitu index **1**, karena ketiganya menghasilkan nilai hash yang sama saat dibagi dengan ukuran tabel 10. Karena terjadi collision, item tersebut disimpan secara berantai menggunakan linked list, sehingga tampil dalam bentuk **(21, Material: Senior Investigator Log) -> (11, Drive Disc: Shockstar Disco) -> (1, W-Engine: Demara Battery Mark II) -> NULL**.
 
+Selain itu, item dengan key **2** masuk ke index **2**, yaitu **Item: Ether Battery**. Setelah inventory ditampilkan, program melakukan pencarian item dengan key **11** dan berhasil menemukan item **Drive Disc: Shockstar Disco**. Kemudian program menghapus item dengan key **11** dari inventory. Setelah penghapusan, isi inventory ditampilkan kembali dan item **Drive Disc: Shockstar Disco** sudah tidak ada. Pada index **1**, data yang tersisa adalah **Material: Senior Investigator Log** dan **W-Engine: Demara Battery Mark II**. Output ini menunjukkan bahwa program berhasil menambahkan, mencari, menghapus, dan menampilkan item inventory menggunakan metode **Separate Chaining**.
 
-Output program menampilkan menu utama **Sistem Level Boss Wuthering Waves**. Pengguna dapat menambahkan level boss, mencari level tertentu, menampilkan level secara terurut, melihat preorder dan postorder, serta mengetahui level boss terendah, tertinggi, jumlah boss, dan total seluruh level boss. Program ini bekerja menggunakan struktur **Binary Search Tree (BST)**, sehingga data level boss disusun berdasarkan nilai kecil ke kiri dan nilai besar ke kanan. 
-
-Pada output tersebut, pengguna memasukkan level boss **25, 50, 75, dan 100**. Setelah itu, program berhasil mencari level **75** dan menampilkan bahwa boss dengan level tersebut ditemukan. Ketika menu terurut dipilih, program menampilkan **25 50 75 100**. Program juga menampilkan level terendah yaitu **25**, level tertinggi yaitu **100**, jumlah boss sebanyak **4**, dan total seluruh level boss yaitu **250**. Saat pengguna memilih menu **10**, program menampilkan pesan **“Program selesai.”**
 
 
 e. link youtube : [https://youtu.be/i-hNoEuMl-M](https://youtu.be/aK033Sb2lCk)
