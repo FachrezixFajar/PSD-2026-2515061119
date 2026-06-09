@@ -107,4 +107,4 @@ Selain itu, item dengan key **2** masuk ke index **2**, yaitu **Item: Ether Batt
 
 
 
-e. link youtube : [https://youtu.be/i-hNoEuMl-M](https://youtu.be/aK033Sb2lCk)
+e. link youtube : https://youtu.be/OoiYnZfevSA
